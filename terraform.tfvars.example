@@ -1,0 +1,4 @@
+# Copy to terraform.tfvars (gitignored) and fill in.
+account_id = "<cloudflare-account-id>"
+
+# zone = "crysis.dev"

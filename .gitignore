@@ -1,0 +1,25 @@
+# Provider plugins and module cache
+.terraform/
+
+# State holds tunnel secrets. Keep it out of git.
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+
+# Variable files may hold account details or secrets
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+
+# Local CLI config
+.terraformrc
+terraform.rc
+
+# Nix
+result
+result-*
+
+# direnv
+.direnv/
